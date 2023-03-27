@@ -9,49 +9,134 @@
     <link rel="stylesheet" type="text/css" href="custom.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <navbar class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">qNomics</a>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                </li>
-            </ul>
-        </div>
-    </navbar>
-
-    <!-- Image Carousel -->
-    <div id="big-carousel" class="carousel slide" data-bs-ride="carousel">
-
-        <!-- Indicators -->
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#big-carousel" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#big-carousel" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#big-carousel" data-bs-slide-to="2"></button>
-        </div>
-
-        <!-- Image Specification -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./images/skyline.jpg" alt="London skyline" class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-                <img src="./images/st-pauls.jpg" alt="St Paul's Cathedral" class="d-block w-100">
-            </div>
-            <div class="carousel-item">
-                <img src="./images/big-ben.jpg" alt="Big Ben" class="d-block w-100">
-            </div>
-        </div>
-
-        <!-- Controls -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#big-carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#big-carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </button>
+    <!-- Jumbotron -->
+    <div class="container-fluid bg-light text-dark p-5">
+        <h2 class="text-center">How does the financial system work?</h2>
+        <p class="text-center">Before diving into the topic, let us focus on why you, as an individual, should be aware of financial system principles.</p>
     </div>
+
+    <!-- Accordion -->
+    <div class="accordion bg-light px-5">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    The financial system affects every aspect of our daily lives, including our finances, job security, and the economy's overall health.
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+                <div class="accordion-body">
+                    A basic understanding of the financial system can help you make informed decisions about your finances, such as how to save and invest your money and manage debt.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Understanding the financial system can help you better understand the broader economic landscape and its impact on your financial situation. 
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+                <div class="accordion-body">
+                    For example, changes in monetary policy by the central bank, fluctuations in stock prices, or shifts in the housing market can all significantly impact an individual's financial well-being.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Furthermore, understanding the financial system is essential for the economy as a whole.
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                <div class="accordion-body">
+                    A well-functioning financial system helps allocate capital, supports economic growth, and promotes financial stability. Moreover, in times of financial crisis, a strong financial system can help mitigate the impact of the crisis on the economy and prevent widespread damage.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cards -->
+    <div class="container-fluid bg-light text-dark p-5">
+        <h2 class="text-center">What is the financial system?</h2>
+        <p class="text-center p-2">
+            The financial system is a complex network of institutions, markets, and instruments that facilitate the flow of funds (money to be paid or received) between savers and borrowers. It is responsible for directing savings to their most productive use, mobilising capital for investment, and allocating risk.
+        </p>
+        <p class="text-center p-2">
+            The financial system consists of several key components, including:
+        </p>
+        <div class="card-group text-dark p-2">
+            <div class="card text-center border-5 border-dark">
+                <img src="images/bank.svg" class="card-img-top">
+                <div class="card-body bg-primary text-light">
+                    <h5 class="card-title">
+                        Financial Institutions
+                    </h5>
+                    <p class="card-text">
+                        These are organisations such as banks, insurance companies, and investment firms that provide financial services and products to individuals and businesses.
+                    </p>
+                </div>
+            </div>
+            <div class="card text-center border-5 border-dark">
+                <img src="images/graph-up.svg" class="card-img-top">
+                <div class="card-body bg-success text-light">
+                    <h5 class="card-title">
+                        Financial Markets
+                    </h5>
+                    <p class="card-text">
+                        These are places where financial instruments such as stocks, bonds, and currencies are traded. The most well-known financial markets include stock exchanges, bond markets, and currency markets.
+                    </p>
+                </div>
+            </div>
+            <div class="card text-center border-5 border-dark">
+                <img src="images/coins-swap.svg" class="card-img-top">
+                <div class="card-body bg-danger text-light">
+                    <h5 class="card-title">
+                        Financial Instruments
+                    </h5>
+                    <p class="card-text">
+                        These are products such as stocks, bonds, and currencies representing claims on assets or future income streams.
+                    </p>
+                </div>
+            </div>
+            <div class="card text-center border-5 border-dark">
+                <img src="images/piggy-bank.svg" class="card-img-top">
+                <div class="card-body bg-dark text-light">
+                    <h5 class="card-title">
+                        Central Bank
+                    </h5>
+                    <p class="card-text">
+                        The central bank is responsible for setting monetary policy, regulating financial institutions, and maintaining stability in the financial system - during the 2008 financial crisis, the central bank provided emergency loans to banks to prevent a complete collapse of the financial system.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-secondary text-light p-5">
+        <h2 class="text-center">
+            What is banking?
+        </h2>
+        <p class="text-center">
+            Banks play a critical role in the financial system by accepting customer deposits and lending to borrowers. This intermediation process helps mobilise savings and allocate capital to the most productive use. For example, a small business owner who needs a loan to expand their operations may go to a bank to obtain financing. The bank uses the deposits it has received from other customers to provide the loan to the small business owner.
+        </p>
+    </div>
+
+    <div class="container-fluid bg-light text-dark p-5">
+        <h2 class="text-center">
+            What is insurance?
+        </h2>
+        <p class="text-center">
+            Insurance companies provide another important function in the financial system by helping to manage risk. For example, homeowners may purchase insurance to protect their homes from damage or loss due to a natural disaster. The insurance company pools the premiums it receives from many policyholders to provide a cushion against potential losses.
+        </p>
+    </div>
+
+    <!-- Content Block 3 -->
+    <div class="container-fluid bg-dark text-light p-5">
+        <p class="text-center p-2">
+            In conclusion, the financial system is a complex and dynamic system that plays a critical role in the economy by channelling savings into investment, mobilising capital, and allocating risk. Financial institutions, markets, and instruments are key system components, and the central bank is responsible for maintaining stability and promoting economic growth. From an individual perspective, understanding the financial system is also important for personal financial literacy, informed decision-making, and promoting economic stability.
+        </p>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
