@@ -10,16 +10,16 @@
     display: none;
 }
 
-body {
+#body {
     --hue: var(--bs-blue);
     background-color: var(--hue);
 }
 
-body.correct {
+#body.correct {
     --hue: var(--bs-green);
 }
 
-body.wrong {
+#body.wrong {
     --hue: var(--bs-red);
 }
 
