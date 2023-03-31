@@ -1,3 +1,4 @@
+
 .card-img-top {
     width: 100%;
     height: 20vw;
@@ -7,4 +8,28 @@
 
 .hide {
     display: none;
+}
+
+body {
+    --hue: var(--bs-blue);
+    background-color: var(--hue);
+}
+
+body.correct {
+    --hue: var(--bs-green);
+}
+
+body.wrong {
+    --hue: var(--bs-red);
+}
+
+.btn {
+    --hue: var(--bs-blue); 
+}
+.btn.correct {
+    --hue: var(--bs-green);
+}
+
+.btn.wrong {
+    --hue: var(--bs-red);
 }
