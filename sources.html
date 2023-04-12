@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qNomics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/custom.css">
+</head>
+<body class="bg-light">
+    <!-- Navigation -->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand" href="home.html">
+                <img src="images/arrow-left-circle.svg" alt="home button" class="d-inline-block align-text-top">
+                Financial Literacy Hub
+            </a>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="container-fluid bg-light text-dark p-5">
+        <h2 class="text-center">Sources of Finance</h2>
+        <p class="text-center"> The term 'sources of finance' essentially means when people and businesses use various sources in order to gain more liquidity and more money for them to use in the short-term.</p>
+    </div>
+
+    <div class="container-fluid bg-secondary text-light p-5">
+        <p class="text-center"><img src="images/coins.svg"></p>
+        <h2 class="text-center">Savings</h2>
+        <p class="text-center">
+            Our first source we observe is savings. For an entrepreneur especially, as they try to get their startup up and running, they will incur many costs initially and would have to pay it off with their own personal savings. This use of their own savings is very much easy and accessible for anyone to do so and it doesn't require any additional costs to use the savings.
+        </p>
+        <p class="text-center">
+            However the disadvantage of using this as a source of finance is that most of the time, these savings won't be simply enough to fund for all the investment projects you want to, as they aren't substantial enough and very much limited.
+        </p>
+    </div>
+
+    <div class="container-fluid bg-light text-dark p-5">
+        <p class="text-center"><img src="images/lot-of-cash.svg"></p>
+        <h2 class="text-center">Bank Loans</h2>
+        <p class="text-center">
+            Another source of finance is through bank loans. This requires us to borrow money from the bank, which is repaid with interest. We can also attach a collateral to these loans to ensure the trustworthiness of our ability to repay to the banks.
+        </p>
+        <p class="text-center">
+            So for example this could be through using our own homes as a collateral when we apply for a mortgage. However this does come at a cost to us since we have to pay back our interest, which can accumulate over time and end up being a substantial cost.
+        </p>
+    </div>
+
+    <div class="container-fluid bg-success text-light p-5">
+        <p class="text-center"><img src="images/group.svg"></p>
+        <h2 class="text-center">Crowdfunding</h2>
+        <p class="text-center">
+            Even more another source of finance is through crowdfunding. Crowdfunding is relatively a new source of finance that involves funding a venture or project by asking for small contributions from a large number of people.
+        </p>
+        <p class="text-center">
+            This allows more people to get easier access to money, since not everyone is able to get money through traditional forms of financing like loans for example. This does not require any kind of interest payments.
+        </p>
+        <p class="text-center">
+            However the major downside is the fact that its not a reliable source of funding since its not always guaranteed and there are many factors which come into play when measuring the success of the crowdfunding project.
+        </p>
+    </div>
+
+    <div id='body' class="d-flex flex-column align-items-center justify-content-center p-5" style="min-height: 40vh; ">
+        <div class="mb-3 text-light">
+            <h1>Test your knowledge:</h1>
+        </div>
+        <div id="quiz-container" class="bg-light p-3 rounded-3 shadow-lg w-75">
+            <div id="question-container" class="hide">
+                <div id="question" class="mb-3">Question</div>
+                <div id="answer-buttons" class="d-grid gap-3 mb-3">
+                    <button class="btn btn-primary">Answer 1</button>
+                    <button class="btn btn-primary">Answer 2</button>
+                    <button class="btn btn-primary">Answer 3</button>
+                    <button class="btn btn-primary">Answer 4</button>
+                </div>
+            </div>
+            <div id="controls" class="d-flex justify-content-center">
+                <button id="start-btn" class="btn btn-primary btn-lg">Start the Quiz!</button>
+                <button id="next-btn" class="btn btn-primary btn-lg hide">Next</button>
+            </div>
+        </div>
+        <div id="final-score" class="hide">
+            <button class="btn btn-warning btn-xl">Score: <span id='score'></span>/<span id='quiz-length'></span></button>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="js/sources-quiz.js"></script>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
