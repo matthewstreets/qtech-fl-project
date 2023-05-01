@@ -178,5 +178,140 @@ const questions = [
             { text: 'Financial markets', correct: false},
             { text: 'Financial institutions', correct: true}
         ]
+    },
+    {
+        question: "What is the financial system responsible for?",
+        answers: [
+            { text: 'Directing savings to their most productive use', correct: false},
+            { text: 'Mobilising capital for investment', correct:false},
+            { text: 'Allocating risk', correct: false},
+            { text: 'All of the above', correct: true}
+        ]
+    },
+    {
+        question: "Which of the following is not a component of the financial system?",
+        answers: [
+            { text: 'Financial systems', correct: false},
+            { text: 'Financial markets', correct:false},
+            { text: 'Insurance companies', correct: false},
+            { text: 'Real estate agencies', correct: true}
+        ]
+    },
+    {
+        question: "What is the main responsibility of the central bank in the financial system?",
+        answers: [
+            { text: 'Providing loans to banks during financial crises', correct: false},
+            { text: 'Regulating financial institutions', correct:false},
+            { text: 'Setting monetary policy', correct: false},
+            { text: 'All of the above', correct: true}
+        ]
+    },
+    {
+        question: "What is the role of banks in the financial system?",
+        answers: [
+            { text: 'Accepting customer deposits and lending to borrowers', correct: false},
+            { text: 'Mobilising savings', correct:false},
+            { text: 'Allocating capital to the most productive use', correct: false},
+            { text: 'All of the above', correct: true}
+        ]
+    },
+    {
+        question: "Why is it important for individuals to understand the financial system?",
+        answers: [
+            { text: 'To make informed decisions about personal finances', correct: false},
+            { text: 'To understand the broader economic landscape', correct:false},
+            { text: 'To promote economic stability', correct: false},
+            { text: 'All of the above', correct: true}
+        ]
+    },
+    {
+        question: "What are financial instruments?",
+        answers: [
+            { text: 'Places where financial instruments are traded', correct: false},
+            { text: 'Products representing claims on assets or future income streams', correct:true},
+            { text: 'Organisations that provide financial services', correct: false},
+            { text: 'None of the above', correct: false}
+        ]
+    },
+    {
+        question: "Which financial institution plays a critical role in the financial system by accepting customer deposits and lending to borrowers?",
+        answers: [
+            { text: 'Insurance companies', correct: false},
+            { text: 'Investment firms', correct:false},
+            { text: 'Banks', correct:true},
+            { text: 'None of the above', correct: false}
+        ]
+    },
+    {
+        question: "Why is investment important?",
+        answers: [
+            { text: 'To save money', correct: false},
+            { text: 'To help small businesses grow', correct:false},
+            { text: 'It puts your money to work and it is possible to build wealth', correct: true},
+            { text: 'To avoid over spending', correct: false}
+        ]
+    },
+    {
+        question: "What are stocks?",
+        answers: [
+            { text: 'They offer you a way to invest in a wide range of bonds in one package.', correct: false},
+            { text: 'They are issued by governments and corporations when they want to raise money.', correct:false},
+            { text: 'They are units of equity ownership in a corporation.', correct: false},
+            { text: 'It is a security that signifies the ownership of a proportion of the issuing company.', correct: true}
+        ]
+    },
+    {
+        question: "Which of the following is true?",
+        answers: [
+            { text: 'Investing in stocks is the safest way to invest', correct: false},
+            { text: 'Bonds have the lowest potential investment return in the long run', correct:true},
+            { text: 'Investing is the same as saving.', correct: false},
+            { text: 'Returns on bonds are affected by inflation.', correct: false}
+        ]
+    },
+    {
+        question: "What is an index fund?",
+        answers: [
+            { text: 'It is a portfolio of stocks that is designed to reflect the composition and performance of a financial market index.', correct:true},
+            { text: 'It spreads your money across a variety of investments depending on the risk level and financial goals you set.', correct:false},
+            { text: 'It invests in high quality, short-term debt securities and pays dividends that generally reflect short-term interest rates.', correct: false},
+            { text: 'It is a savings account that holds a fixed amount of money for a fixed period of time.', correct:false}
+        ]
+    },
+    {
+        question: "Which of the following is not a risk associated with investing in ETFs?",
+        answers: [
+            { text: 'The lack of liquidity hinders transactions.', correct: false},
+            { text: 'Single industry focused ETFs limit diversification.', correct:false},
+            { text: 'They are not flexible.', correct: true},
+            { text: 'Actively managed ETFs incur higher costs.', correct: false}
+        ]
+    },
+    {
+        question: "Which of the following is false?",
+        answers: [
+            { text: 'Index fund performance is good in the short run.', correct: true},
+            { text: 'Both index funds and stocks are vulnerable to fluctuations in the market.', correct:false},
+            { text: 'Index funds lack flexibility.', correct: false},
+            { text: 'ETFs offer lower average costs.', correct: false}
+        ]
+    },
+    {
+        question: "What is one way to save money?",
+        answers: [
+            { text: 'To start a business', correct: false},
+            { text: 'To buy into trends', correct:false},
+            { text: 'To eat out every meal', correct: false},
+            { text: 'To budget', correct: true}
+        ]
+    },
+    {
+        question: "What is the cost of living crisis?",
+        answers: [
+            { text: 'When everything is expensive', correct: false},
+            { text: 'When your wages are not rising', correct:false},
+            { text: 'When the cost of everyday items is rising faster than wages', correct: true},
+            { text: 'When the cost of goods is decreasing', correct: false}
+        ]
     }
 ]
